@@ -13,7 +13,7 @@ The steps you should follow to make the BART function well in Qualtrics:
  3.Download the balloon picture and upload the Balloon.png to your Qualtrics library, and change the related link address of the picture. After you upload the image successfully, you could find the concerned link address in your Qualtrics library.
  And find the code you need to revise:   <img src=https://erasmusuniversity.eu.qualtrics.com/ControlPanel/Graphic.php?IM=IM_e40vZ7nffgjMnul id="ballon" alt="Ballon">, which you could find this in the HTML.
  
- 4.In the "survey flow", add "Set Embedded Data" to save the related data. The codes are as below: 
+ 4.In the "survey flow", add "Set Embedded Data" to save the related data (need to scroll to the end of survey and click on "add a new element here", then set a new value (after naming it accordingly). The codes are as below: 
        exploded = ${e://Field/number_pumps}
        number_pumps= ${e://Field/number_pumps}
        
