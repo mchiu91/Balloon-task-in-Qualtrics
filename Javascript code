@@ -169,7 +169,7 @@ $(document).ready(function() {
 	  //Because BurstProb is random number between 0 and 1, the propbability that BurstProb > 1/(maximal_pumps-pumps+1) is equal to 1 - 1/(maximal_pumps-pumps+1)
 	  //and the probability that BurstProb < 1/(maximal_pumps-pumps+1) is equal to 1/(maximal_pumps-pumps+1)
 	  //In other words, the ballon will burst with probability 1/(maximal_pumps-pumps+1), and will not burst with probability 1-1/(maximal_pumps-pumps+1)
-      if (BurstProb > 1/(maximal_pumps-pumps+1) {
+      if (BurstProb > 1/(maximal_pumps-pumps+1)) {
 	size +=increase;
 	$('#ballon').width(size); 
         $('#ballon').height(size);
@@ -197,7 +197,7 @@ $(document).ready(function() {
   // collect button: release pressure and hope for money
   $('#collect').click(function() {
       if (pumps === 0) {
-	alert('you can only collect the money once you click "给气球充气”。');
+	alert('you can only collect the money once you click "Pump the balloon."');
       }
       else if (pumps > 0) { // only works after at least one pump has been made
 	exploded.push(explosion); // save whether balloon has exploded or not
