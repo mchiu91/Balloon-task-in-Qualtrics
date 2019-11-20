@@ -4,6 +4,9 @@ Here are the codes and images that you may need to deploy Balloon Analogue Risk 
 2. Javascript code
 3. balloon_new.png
 
+See thread at: https://www.researchgate.net/post/How_to_program_Balloon_Analogue_Risk_Task_with_Javascript
+Need to delete lines referring to audio for code to work.
+
 The steps you should follow to make the BART function well in Qualtrics:
  
  1. Put the HTML codes into Qualtrics. You can start a new queestion in your survey, then click the "HTML View" where you edit questions in Qualtrics. Just copy and paste the codes I have uploaded (HTML page).
