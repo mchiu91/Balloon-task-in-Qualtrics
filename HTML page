@@ -140,9 +140,6 @@
 
 <body>
 
-<audio id="explosion_sound" src="music/explosion.wav" preload="auto"></audio>
-<audio id="tada_sound" src="music/tada.wav" preload="auto"></audio>
-
 <div id="round"></div>
 
 <div id="bigwrap">
